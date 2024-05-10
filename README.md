@@ -1,8 +1,10 @@
 **Personal Income Tax Return Estimate System**
 
-This system consists of a 3-tiered client-server architecture that allows taxpayers to calculate their tax returns. The client and servers' components are designed to run on separate machines, implemented using virtualization. 
-Connections between the different virtual machines are established with the use of socket programming in Python. Considering the processes between the components, a message oriented system along with Remote Procedure Call (RPC) technique 
-is used to pass parameters in messages and call functions accordingly.
+This system consists of a 3-tiered client-server architecture that allows taxpayers to calculate their tax returns. 
+
+The client and servers' components are designed to run on separate machines, implemented using virtualization. 
+Connections between the different virtual machines are established with the use of socket programming in Python. 
+Considering the processes between the components, a message oriented system along with Remote Procedure Call (RPC) technique is used to pass parameters in messages and call functions accordingly.
 
 **Functionalities:**
 
